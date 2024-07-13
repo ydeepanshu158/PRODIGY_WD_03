@@ -1,0 +1,25 @@
+.game-board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+  
+  .square {
+    background-color: #eee;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .square:hover {
+    background-color: #ccc;
+  }
+  
+  .square.x {
+    background-color: #ff69b4;
+  }
+  
+  .square.o {
+    background-color: #33cc33;
+  }
